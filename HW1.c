@@ -21,7 +21,7 @@ int main()
 void binary(int integer)
 {
     int x;
-    int array[8] = {0};
+    int array[7] = {0};
     int count = 0;
     printf("Binary conversion: ");
     if (integer == 0)
@@ -46,7 +46,7 @@ void hexadecimal(int integer)
 {
     int y;
     char conversion_array[] = "0123456789ABCDEF";
-    char hexadecimal_conversion[8] = {0};
+    char hexadecimal_conversion[7] = {0};
     int count = 0;
     printf("Hexadecimal conversion: ");
     if (integer == 0)
